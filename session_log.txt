@@ -1,0 +1,24 @@
+[2026-10-13 12:27:46] MODE: RAG
+QUERY: What is the refund policy for missing items?
+OUTPUT: Based on QuickBite policy: Relevant guidelines retrieved from Section 3 regarding your query.
+------------------------------------------------------------
+[2026-10-13 12:27:46] MODE: Classify
+QUERY: The delivery was late by 50 minutes and driver was rude
+OUTPUT: Predicted: Late Delivery (Closest: The delivery took over an hour and a half to reach my apartment, and the driver did not pick up calls.)
+------------------------------------------------------------
+[2026-10-13 12:46:34] MODE: RAG
+QUERY: payment
+OUTPUT: Based on QuickBite policy: Relevant guidelines retrieved from Section 3 regarding your query.
+------------------------------------------------------------
+[2026-10-13 12:49:40] MODE: RAG
+QUERY: payment
+OUTPUT: Based on QuickBite policy: Relevant guidelines retrieved from Section 3 regarding your query.
+------------------------------------------------------------
+[2026-10-13 12:50:16] MODE: Classify
+QUERY: my order was delivered very late
+OUTPUT: Predicted: Late Delivery (Closest: The delivery took over an hour and a half to reach my apartment, and the driver did not pick up calls.)
+------------------------------------------------------------
+[2026-10-13 12:50:34] MODE: Classify
+QUERY: my order was delivered very early
+OUTPUT: Predicted: Late Delivery (Closest: The delivery took over an hour and a half to reach my apartment, and the driver did not pick up calls.)
+------------------------------------------------------------
